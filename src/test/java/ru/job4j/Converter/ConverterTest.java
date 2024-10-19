@@ -25,15 +25,3 @@ class ConverterTest {
         assertThat(output).isEqualTo(expected, withPrecision(value));
     }
 
-    @Test
-    void main () {
-    whenConvert200RblThen2Euro ();
-    whenConvert180RblThen3Dollar();
-    }
-
-    private void whenConvert200RblThen2Euro() {
-    }
-
-    private void whenConvert180RblThen3Dollar() {
-    }
-}
